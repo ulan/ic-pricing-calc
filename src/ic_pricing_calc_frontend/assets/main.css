@@ -1,0 +1,37 @@
+label {
+    display: inline-block;
+    clear: left;
+    width: 350px;
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  input {
+    display: inline-block;
+  }
+
+  table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin-top: 50px;
+    padding: 0;
+    width: 500px;
+  }
+
+  table tr {
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  table th {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>IC Pricing Calculator</title>
+  <link type="text/css" rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div>
+    The minimal test version of the IC pricing calculator.
+    The UI/UX will be improved later on.
+  </div>
+
+
+  <form id="form">
+    <div>
+      <label for="num_subnet_nodes">Number of nodes in the subnet</label>
+      <input id="num_subnet_nodes" type="text" value="13" />
+    </div>
+
+    <div>
+      <label for="num_total_users">Number of all users</label>
+      <input id="num_total_users" type="text" value="100000" />
+    </div>
+
+    <div>
+      <label for="num_active_users">Number of daily active users</label>
+      <input id="num_active_users" type="text" value="1000" />
+    </div>
+
+    <div>
+      <label for="num_messages_per_active_user">Number of daily messages per active user</label>
+      <input id="num_messages_per_active_user" type="text" value="10" />
+    </div>
+
+    <div>
+      <label for="num_payload_bytes_per_message">Number of request and response bytes per message</label>
+      <input id="num_payload_bytes_per_message" type="text" value="1000" />
+    </div>
+
+    <div>
+      <label for="num_instructions_per_message">Number of instructions executed per message</label>
+      <input id="num_instructions_per_message" type="text" value="1000000" />
+    </div>
+
+    <div>
+      <label for="num_calls_per_message">Number of calls per message</label>
+      <input id="num_calls_per_message" type="text" value="0" />
+    </div>
+
+    <div>
+      <label for="num_payload_bytes_per_call">Number of request and response bytes per call</label>
+      <input id="num_payload_bytes_per_call" type="text" value="1000" />
+    </div>
+
+    <div>
+      <label for="num_instructions_per_call">Number of instructions per call</label>
+      <input id="num_instructions_per_call" type="text" value="0" />
+    </div>
+
+    <div>
+      <label for="num_tasks">Number of daily tasks</label>
+      <input id="num_tasks" type="text" value="10" />
+    </div>
+
+    <div>
+      <label for="num_instructions_per_task">Number of instructions executed per task</label>
+      <input id="num_instructions_per_task" type="text" value="1000000000" />
+    </div>
+
+    <div>
+      <label for="num_http_outcalls">Number of daily HTTP outcalls</label>
+      <input id="num_http_outcalls" type="text" value="0" />
+    </div>
+
+    <div>
+      <label for="num_request_bytes_per_http_outcall">Number of request bytes per HTTP outcall</label>
+      <input id="num_request_bytes_per_http_outcall" type="text" value="0" />
+    </div>
+
+    <div>
+      <label for="num_response_bytes_per_http_outcall">Number of response bytes per HTTP outcall</label>
+      <input id="num_response_bytes_per_http_outcall" type="text" value="0" />
+    </div>
+
+    <div>
+      <label for="num_storage_bytes_per_user">Number of storage bytes per user</label>
+      <input id="num_storage_bytes_per_user" type="text" value="1000" />
+    </div>
+
+    <div>
+      <label for="num_storage_bytes">Number of user-independent storage bytes</label>
+      <input id="num_storage_bytes" type="text" value="1000000000" />
+    </div>
+  </form>
+
+  <div id="output">
+  </div>
+</body>
+
+</html>

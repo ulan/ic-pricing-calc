@@ -1,0 +1,30 @@
+{
+  "canisters": {
+    "ic_pricing_calc_backend": {
+      "candid": "src/ic_pricing_calc_backend/ic_pricing_calc_backend.did",
+      "package": "ic_pricing_calc_backend",
+      "type": "rust"
+    },
+    "ic_pricing_calc_frontend": {
+      "dependencies": [
+        "ic_pricing_calc_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/ic_pricing_calc_frontend/src/index.html"
+      },
+      "source": [
+        "src/ic_pricing_calc_frontend/assets",
+        "dist/ic_pricing_calc_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
