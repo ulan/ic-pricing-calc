@@ -6,3 +6,5 @@ Steps:
 - `npm i`
 - `dfx deploy`
 - open the frontend canister in browser.
+
+Demo: [https://5kqpr-vyaaa-aaaag-qcxla-cai.icp0.io/](https://5kqpr-vyaaa-aaaag-qcxla-cai.icp0.io/)
